@@ -2,7 +2,16 @@
 Given a static array A of size N, perform Q queries of the form ?LR, where each query seeks to find the sum of elements in the range L to R in the array.
 
 */
+/*
+O(N+Q)
+where:
 
+N
+N is the size of the input array.
+Q
+Q is the number of queries.
+
+*/
 #include <iostream>
 #include <vector>
 
